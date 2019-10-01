@@ -44,9 +44,10 @@ def pics(from_path='raw_data',to_path='preproc_data'):
     #possible image file extensions.
     exts = ['.jpg', '.png', '.tif', '.bmp']
 
-    # input file dimensions
-    xdim = 1330 #2560
-    ydim = 884 #1920
+    # input file dimensions 
+    # UPDATED VALUES FOR THE SECOND GLOVEBOX
+    xdim = 1278 #1330 #2560
+    ydim = 909#884 #1920
 
     # output file dimensions
     dim = 80 #256

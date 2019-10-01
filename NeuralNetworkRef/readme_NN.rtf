@@ -1,0 +1,32 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \
+\
+To run the end-to-end pre-processing+classification using 3 neural networks run\
+run_me.py\
+\
+To clean the desired folders after  round of classification run\
+clean_me.py\
+\
+pre-processing code is:\
+create_pics.py\
+print commands can be freely removed if necessary for the speed of processing\
+\
+code to recreate neural net from the stored checkpoints:\
+nn_v0_algo.py\
+\
+data for model restoration are in folder\
+models\
+[this folder should be never modified]\
+\
+FOLDER STRUCTURE:\
+raw_data: for small sets of *.bmp files from scanning\
+pre_proc data: here the pre-processing algo saves candidates for flakes to be classified\
+step1_data: flakes labeled as good after 1st run of classification\
+step2_data: flakes labeled as good after 2nd run of classification\
+final_data: here the final good flakes are saved [the data from the whole sample can be appended into this folder]}
